@@ -4,3 +4,5 @@ icalendar==3.6.1
 python-dateutil==2.2
 pycrypto==2.6.1
 setproctitle==1.1.8
+flask
+flask-restful

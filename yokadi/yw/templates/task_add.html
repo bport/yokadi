@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1>Add task</h1>
+<form role="form">
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title" placeholder="Task title">
+    </div>
+    <div class="form-group">
+        <label for="project">Project</label>
+        <select id="project" class="form-control">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+    </div>
+    <div class="checkbox">
+        <label>
+            <input type="checkbox"> Check me out
+        </label>
+    </div>
+    <button type="submit" class="btn btn-default">Add Task</button>
+</form>
+{% endblock %}

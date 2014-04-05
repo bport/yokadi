@@ -37,7 +37,7 @@ if hasIcalendar:
 from keywordtestcase import KeywordTestCase
 from cryptotestcase import CryptoTestCase
 from tuitestcase import TuiTestCase
-
+from ywebrestapitestcase import YWebRestAPITestCase
 
 def main():
     db.connectDatabase("", memoryDatabase=True)
